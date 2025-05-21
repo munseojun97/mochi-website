@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 
 export default function Home() {
   return (
@@ -28,16 +28,16 @@ export default function Home() {
         <div className="mt-10">
           <h2 className="text-2xl font-semibold mb-4">🌐 Join the Mochi Movement</h2>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button variant="outline" asChild>
+            <Button asChild>
               <a href="https://phantom.app" target="_blank">Phantom Wallet</a>
             </Button>
-            <Button variant="outline" asChild>
+            <Button asChild>
               <a href="https://jup.ag" target="_blank">Buy on Jupiter</a>
             </Button>
-            <Button variant="outline" asChild>
+            <Button asChild>
               <a href="https://twitter.com" target="_blank">Twitter</a>
             </Button>
-            <Button variant="outline" asChild>
+            <Button asChild>
               <a href="https://discord.com" target="_blank">Discord</a>
             </Button>
           </div>
